@@ -1,0 +1,111 @@
+
+
+    .badge-collection-container {
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #7e57c2;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    
+    .header h1{
+        color: #7e57c2;
+        font-size: 3rem;
+
+    }
+    .credits-container {
+        font-size: 20px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        background-color: #7e57c2;
+        padding: 10px;
+        border-radius: 10px;
+        color: #ffffff;
+        gap: 10px;
+    }
+    
+    .credits-icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+    
+    .badges-grid {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .badge-card {
+        width: 250px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #7e57c2;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 10px #7e57c2;
+        text-align: center;
+        position: relative; /* Allows positioning of overlay */
+    }
+
+    .badge-card:hover {
+        transform: scale(1.12); /* Scale the card to 105% of its original size */
+        transition: transform 0.5s ease; /* Smooth transition effect */
+    }
+    
+    
+    .badge-card h2 {
+        margin: 10px 0;
+        color: #7e57c2;
+    }
+
+    .badge-card img{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .badge-card span {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .badge-card span img{
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+    }
+    .credits-value {
+        font-size: 24px; /* Adjust the size as needed */
+        color: #7e57c2; /* Adjust the color as needed */
+         /* Makes the number bold */
+        margin-right: 5px; /* Space between the number and the image */
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6); /* Black overlay with transparency */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    
+    .lock-icon {
+        width: 170px;
+        height: 220px;
+    }
+    
