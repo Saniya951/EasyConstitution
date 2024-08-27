@@ -7,7 +7,7 @@ import "./css_files/navbar.css"; // Import the CSS for styling
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo-name">
+      <div className="">
       <img className='nav-logo' src={logo} alt='logo'/>
       <div className="navbar-brand">Citizen and Constitution</div>
       </div>
