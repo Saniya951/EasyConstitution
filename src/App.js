@@ -6,6 +6,7 @@ import LoginPage from "./components/login";
 import SignupPage from "./components/signup";
 import GamesPage from "./components/gamepage";
 import LearnPage from "./components/learnpage";
+import VideoPage from "./components/videopage";
 import Navbar from "./components/navbar"; // Import the Navbar component
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/games" element={<GamesPage />} />
           <Route path="/learn" element={<LearnPage />} />
+          <Route path="/videopage" element={<VideoPage />} />
         </Routes>
       </div>
     </Router>
