@@ -1,0 +1,31 @@
+/* VideoCard.css */
+.video-card {
+    width: 30rem;
+    height:auto;
+    border: 1px solid #5a2d82;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 0.2s;
+    padding:1.5rem;
+    /* overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fff;
+    margin: 10px; */
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-card h3 {
+    font-size: 25px;
+    padding: 10px;
+    color: #7e57c2;
+    font-weight: bold;
+  }
+  

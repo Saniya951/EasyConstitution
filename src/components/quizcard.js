@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // src/components/QuestionCard.js
 // import React from 'react';
 // import './css_files/quizpage.css';
