@@ -1,7 +1,7 @@
 /* src/components/css_files/gamecard.css */
 .game-card {
-    width: 30rem;
-    height:25rem;
+    width: 20rem;
+    height:20rem;
     background-color: #f3eaff;
     border: 2px solid #5a2d82;
     border-radius: 10px;
@@ -11,10 +11,12 @@
     align-items: center;
     transition: transform 0.2s;
     padding:1.5rem;
+    margin-top: 20px;
   }
   
   .game-card:hover {
     transform: scale(1.05);
+    transition: transform 0.5s ease;
   }
   
   .game-card img {
