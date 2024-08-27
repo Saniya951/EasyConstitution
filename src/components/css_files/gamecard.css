@@ -20,7 +20,7 @@
   }
   
   .game-card img {
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
     border-bottom: 1px solid #5a2d82;

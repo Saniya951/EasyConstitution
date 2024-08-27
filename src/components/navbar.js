@@ -7,7 +7,7 @@ import "./css_files/navbar.css"; // Import the CSS for styling
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="">
+      <div className="logo-name">
       <img className='nav-logo' src={logo} alt='logo'/>
       <div className="navbar-brand">Citizen and Constitution</div>
       </div>
@@ -18,9 +18,9 @@ const Navbar = () => {
         <li>
           <Link to="/learn">Learn</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/videopage">Video</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/games">Game</Link>
         </li>

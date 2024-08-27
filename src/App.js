@@ -21,10 +21,10 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/games" element={<GamesPage />} />
-          <Route path="/learn" element={<QuizPage />} />
           <Route path="/badges" element={<BadgesPage />} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/videopage" element={<VideoPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
         </Routes>
       </div>
     </Router>

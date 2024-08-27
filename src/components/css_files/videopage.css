@@ -53,4 +53,24 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   }
+
+  .speech{
+    position: relative;
+    left: 95%;
+    background-color: #5c2a9d;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .speech img{
+    margin-top: 5px;
+    margin-left: 3px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+
+  }
   

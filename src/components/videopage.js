@@ -1,8 +1,10 @@
 // VideoPage.js
 import React from "react";
+import { Link } from "react-router-dom";
 import VideoData from "./videodata";
 import VideoCard from "./videocard";
 import "./css_files/videopage.css";
+import mic from '../assets/images/mic.png';
 
 const VideoPage = () => {
   return (
@@ -14,14 +16,19 @@ const VideoPage = () => {
         Constitution. This right gives all citizens the liberty to live and work
         freely within the territory of India. The constitution also protects the
         rights of individuals against arbitrary state action. The Right To
-        Freedom includes various freedoms such as the freedom of speech,
-        freedom of expression, freedom of assembly, freedom of association,
-        freedom of movement, and freedom to practice any profession or
-        occupation.
+        Freedom includes various freedoms such as the freedom of speech, freedom
+        of expression, freedom of assembly, freedom of association, freedom of
+        movement, and freedom to practice any profession or occupation.
       </p>
       <div className="buttons">
         <button className="read-more">Read more</button>
-        <button className="take-quiz">Take Quiz</button>
+        <Link to="/quiz">
+          <button className="take-quiz">Take Quiz</button>
+        </Link>
+        <div className="speech">
+         <img src={mic} alt="" />
+          
+        </div>
       </div>
       <div className="video-grid">
         {VideoData.map((video) => (

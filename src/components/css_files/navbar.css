@@ -7,7 +7,7 @@
   background-color: #ffffff;
 }
 
-.navbar .logo-name .nav-logo{
+.navbar  .nav-logo{
   height: 50px;
   width: 50px;
 }
@@ -33,6 +33,12 @@
 
 .navbar-links li {
   margin-right: 3rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.navbar-links li:hover {
+  color: #c800ff; /* Change to desired hover color */
+  transform: scale(1.05); /* Slightly increase size on hover */
 }
 
 .navbar-links a {
@@ -41,6 +47,8 @@
   font-size: 1.2rem;
 }
 
+
+
 .navbar-buttons .login-button,
 .navbar-buttons .register-button {
   padding: 0.5rem 0.8rem;
@@ -48,6 +56,7 @@
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .navbar-buttons .login-button {

@@ -13,13 +13,13 @@
 }
 
 .content h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #7e57c2;
 }
 
 .content p {
   font-size: 1.2rem;
-  color: #555;
+  color: #440a5f;
   margin: 1rem 0;
 }
 
@@ -34,28 +34,41 @@
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  border-radius: 5px;
 }
 
 .learn-now {
   background-color: #7e57c2;
+  transition: color 0.3s ease, transform 0.3s ease;
   color: white;
+}
+.learn-now:hover{
+  background-color: #600e85;
+  transform: scale(1.05);
 }
 
 .play-the-game {
   background-color: #fff;
   color: #7e57c2;
   border: 2px solid #7e57c2;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.play-the-game:hover{
+  color: #600e85;
+  transform: scale(1.05);
 }
 
 .illustration {
   flex: 1;
+  background: url("../../assets/animations/home.json") no-repeat center center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.illustration img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+.illustration .homeanim{
+ 
+  height: 400px;
+  width: 400px;
 }
+

@@ -1,6 +1,8 @@
 // src/components/Homepage.js
 import React from "react";
 import { Link } from "react-router-dom";
+import Lottie from "lottie-react";
+import home from "../assets/animations/home.json"; 
 import "./css_files/homepage.css"; // Import the CSS for styling
 
 const Homepage = () => {
@@ -24,7 +26,8 @@ const Homepage = () => {
         </div>
       </div>
       <div className="illustration">
-        <img src="path_to_image" alt="Law and Justice Illustration" />
+      <Lottie className='homeanim'
+      animationData={home} loop={true} />
       </div>
     </div>
   );

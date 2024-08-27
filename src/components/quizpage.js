@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // src/components/QuizPage.js
 import React from 'react';
 import { quizData } from './quizdata'; // Import quiz data

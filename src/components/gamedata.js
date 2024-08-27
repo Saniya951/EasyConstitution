@@ -1,10 +1,10 @@
 // src/components/gameData.js
-import game1img from "../assets/images/game1img.png";
+import game1img from "../assets/images/track.png";
 import game2img from "../assets/images/game1img.png";
 import game3img from "../assets/images/game1img.png";
-import game4img from "../assets/images/game1img.png";
-import game5img from "../assets/images/game1img.png";
-import game6img from "../assets/images/game1img.png";
+import game4img from "../assets/images/role.png";
+import game5img from "../assets/images/puzzle.png";
+import game6img from "../assets/images/clue.png";
 
 const games = [
   {

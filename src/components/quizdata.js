@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // src/data/quizData.js
 export const quizData = [
     {

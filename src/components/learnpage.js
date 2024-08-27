@@ -1,5 +1,6 @@
 // src/components/Learn.js
 import React from "react";
+import { Link } from "react-router-dom";
 import "./css_files/learnpage.css"; // Import the CSS for styling
 
 const articles = [
@@ -39,7 +40,7 @@ const Learn = () => {
         <tbody>
           {articles.map((article, index) => (
             <tr key={index}>
-              <td>Article {article.number}</td>
+              <td> <Link to="/videopage">Article {article.number}</Link></td>
               <td>{article.topic}</td>
             </tr>
           ))}
