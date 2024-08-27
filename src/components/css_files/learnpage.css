@@ -1,0 +1,47 @@
+.learn-container {
+    padding-left: 2rem;
+  }
+  
+  .learn-container h1 {
+    color: #7e57c2;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Add a wrapper for the table to enable scrolling */
+  .table-wrapper {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+  .articles-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .articles-table th,
+  .articles-table td {
+    border: 1px solid #7e57c2;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    color: #7e57c2;
+  }
+  
+  .articles-table th {
+    /* background-color: hsl(0, 0%, 87%); */
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Ensure the header stays above the scrolling content */
+  }
+/*   
+  .articles-table tr:nth-child(even) {
+    background-color: hsl(0, 0%, 95%);
+  } */
+  
+  .articles-table tr:hover {
+    background-color: #fcf7ff;
+  }
+  

@@ -1,0 +1,83 @@
+/* src/SignupPage.css */
+
+.signup-container {
+  display: flex;
+  height: 90vh;
+  font-family: Arial, sans-serif;
+}
+
+.signup-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-form {
+  width: 25rem;
+  text-align: center;
+  border: 1px solid #5a2d82;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.signup-form h2 {
+  color: #5a2d82;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #5a2d82;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5a2d82;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-form p {
+  color: #5a2d82;
+  font-size: 0.9rem;
+}
+
+.signup-form p a {
+  color: #5a2d82;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-right {
+  flex: 1;
+  background-color: #f3eaff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-right .illustration {
+  width: 10rem;
+  height: 10rem;
+  background: url("../../assets/animations/consti2.json") no-repeat center center;
+  background-size: cover;
+  /* margin-bottom: 5rem; */
+}
+
+.signup-right p {
+  font-size: 1.5rem;
+  color: #5a2d82;
+  /* margin-top: 5rem; */
+  text-align: center;
+}

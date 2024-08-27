@@ -1,0 +1,19 @@
+/* src/components/css_files/gamepage.css */
+.games-container {
+  padding: 0rem 2rem;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.games-container h1 {
+  color: #7e57c2;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  /* justify-items: center; */
+}

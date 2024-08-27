@@ -1,0 +1,92 @@
+/* src/LoginPage.css */
+
+.login-container {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #f3eaff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-left .book-icon {
+  width: 10rem;
+  height: 10rem;
+  background: url("../../assets/animations/consti1.json") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.login-left p {
+  font-size: 1.5rem;
+  color: #5a2d82;
+  margin-top: 20px;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-form {
+  width: 50%;
+  text-align: center;
+  border: 1px solid #5a2d82;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-form h2 {
+  color: #5a2d82;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border: 1px solid #5a2d82;
+  border-radius: 5px;
+}
+
+.login-form .forgot-password {
+  color: #5a2d82;
+  font-size: 0.8rem;
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5a2d82;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-form p {
+  color: #5a2d82;
+  font-size: 0.9rem;
+}
+
+.login-form p a {
+  color: #5a2d82;
+  text-decoration: none;
+  font-weight: bold;
+}
