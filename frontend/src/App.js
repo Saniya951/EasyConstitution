@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./components/homepage"; // Ensure this matches the actual file name
 import LoginPage from "./components/login";
 import SignupPage from "./components/signup";
@@ -10,6 +10,16 @@ import BadgesPage from "./components/badgespage";
 import QuizPage from "./components/quizpage";
 import VideoPage from "./components/videopage";
 import Navbar from "./components/navbar"; // Import the Navbar component
+import ProtectedRoute from "./components/ProtectedRoute";
+
+function Logout(){
+  localStorage.clear()
+  return <Navigate to ="/login" />
+}
+function RegisterAndLogout(){
+  localStorage.clear()
+  return <SignupPage />
+}
 
 function App() {
   return (
@@ -21,7 +31,9 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/games" element={<GamesPage />} />
-          <Route path="/badges" element={<BadgesPage />} />
+          <Route path="/badges" element={<ProtectedRoute>
+            <BadgesPage />
+            </ProtectedRoute>} />
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/videopage" element={<VideoPage />} />
           <Route path="/quiz" element={<QuizPage />} />
