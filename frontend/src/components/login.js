@@ -19,8 +19,8 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            console.log('Data being sent:', { email, password });
-            const res = await api.post("token/", { email, password });
+            console.log('Data being sent:', { username, password });
+            const res = await api.post("token/", { username, password });
             localStorage.setItem(ACCESS_TOKEN, res.data.access);
             localStorage.setItem(REFRESH_TOKEN, res.data.refresh);
             navigate("/");
@@ -46,9 +46,9 @@ const Login = () => {
                     <h2>Login to know more</h2>
                     <input
                         type="text"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Enter email"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                        placeholder="Enter username"
                         required
                     />
                     <input
